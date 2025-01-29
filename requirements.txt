@@ -2,3 +2,6 @@ fastapi
 polars
 elasticsearch
 python-multipart
+uvicorn
+pandas
+pyarrow

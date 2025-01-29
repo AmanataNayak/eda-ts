@@ -1,11 +1,8 @@
 from elasticsearch import Elasticsearch
 import os
-from dotenv import load_dotenv
 
-load_dotenv()
-
-ES_HOST = os.getenv('ELASTIC_HOST')
-ES_INDEX = os.getenv('ELASTIC_INDEX')
+ES_HOST = os.getenv('ES_HOST')
+ES_INDEX = os.getenv('ES_INDEX')
 
 es = Elasticsearch(
     ES_HOST,
