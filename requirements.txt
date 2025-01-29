@@ -1,0 +1,4 @@
+fastapi
+polars
+elasticsearch
+python-multipart
